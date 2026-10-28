@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tren Riset AI</title>
+<meta name="description" content="Seminar Tren Riset Informatika Masa Kini dan Masa Mendatang (Bidang Kecerdasan Buatan) — Rahman Indra Kesuma, Institut Teknologi Sumatera.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reset.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css">
+<link rel="stylesheet" href="assets/css/theme.css">
+</head>
+<body>
+<div class="reveal"><div class="slides">
+
+<!-- ===================== PEMBUKA ===================== -->
+
+<!-- 1 -->
+<section class="title-slide">
+  <span class="kicker">Seminar Nasional · Teknik Informatika</span>
+  <h1>Tren Riset Informatika<br><em>Masa Kini</em> &amp; <strong>Masa Mendatang</strong></h1>
+  <p class="lead">Bidang Kecerdasan Buatan — dari peta, gelombang, hingga kompas risetmu</p>
+  <p class="who"><b>Rahman Indra Kesuma, S.Kom., M.Cs.</b><br>Program Studi Teknik Informatika · Institut Teknologi Sumatera</p>
+  <aside class="notes">[0:00–1:00] Salam pembuka, terima kasih kepada panitia. Sampaikan bahwa 60 menit ke depan adalah sebuah perjalanan, lalu 30 menit untuk diskusi.</aside>
+</section>
+
+<!-- 2 -->
+<section>
+  <span class="kicker">Pertanyaan pembuka</span>
+  <p class="big">Berapa kali kamu<br>menggunakan <strong>AI</strong> hari ini?</p>
+  <div class="grid g4" style="margin-top:1.2em">
+    <div class="card"><h3>Pagi</h3><p>Rekomendasi video &amp; berita</p></div>
+    <div class="card"><h3>Kuliah</h3><p>Terjemahan, ringkasan, ChatGPT</p></div>
+    <div class="card"><h3>Jalan</h3><p>Maps memprediksi macet</p></div>
+    <div class="card warn"><h3>Riau</h3><p>Satelit memantau titik api</p></div>
+  </div>
+  <aside class="notes">[1:00–2:30] Minta audiens angkat tangan/hitung. Tekankan: AI sudah menjadi infrastruktur tak terlihat. Kartu terakhir membuka benang merah cerita: kabut asap karhutla yang akrab bagi warga Riau. Pertanyaannya: bisakah AI membantu? Pertanyaan ini kita bawa sampai akhir.</aside>
+</section>
+
+<!-- 3 -->
+<section>
+  <span class="kicker">Narasumber</span>
+  <div class="profile">
+    <div class="avatar">RIK</div>
+    <div>
+      <h2 style="margin-bottom:.2em">Rahman Indra Kesuma</h2>
+      <p class="muted" style="font-size:.65em;margin-top:0">Dosen Tetap Teknik Informatika · Institut Teknologi Sumatera</p>
+      <div class="edu">
+        <div><b>S3</b>Teknik Elektro &amp; Informatika — ITB <span class="muted">(2021–sekarang)</span></div>
+        <div><b>S2</b>Ilmu Komputer — Universitas Gadjah Mada <span class="muted">(2013–2015)</span></div>
+        <div><b>S1</b>Ilmu Komputer — Universitas Lampung <span class="muted">(2008–2012)</span></div>
+      </div>
+      <div style="margin-top:.6em">
+        <span class="pill">Algoritma Pemrograman</span><span class="pill">Struktur Data</span><span class="pill">Strategi Algoritma</span><span class="pill">Inteligensi Buatan</span><span class="pill">Computational Intelligence</span><span class="pill">Machine Learning</span><span class="pill">Deep Learning</span>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">[2:30–3:30] Perkenalan singkat; jangan lebih dari 1 menit. Ceritakan bahwa perjalanan dari algoritma dasar hingga deep learning adalah perjalanan yang sama yang akan dilalui mahasiswa.</aside>
+</section>
+
+<!-- 4 -->
+<section>
+  <span class="kicker">Fokus riset</span>
+  <h2>Mengajari mesin <em>memahami tindakan</em> manusia dari video</h2>
+  <div class="flow">
+    <div><b>Video CCTV</b>urutan frame</div><span>→</span>
+    <div><b>Ekstraksi fitur</b>spasial (CNN) + temporal</div><span>→</span>
+    <div><b>Human Activity Recognition</b>berjalan, berkelahi, mencuri…</div><span>→</span>
+    <div><b>Peringatan dini</b>domain kriminalitas</div>
+  </div>
+  <div class="grid g3" style="margin-top:1em">
+    <div class="card"><span class="tag">Publikasi terpilih</span><p>Edge coloring untuk penjadwalan sekolah (ICETD 2012)</p></div>
+    <div class="card"><span class="tag">Publikasi terpilih</span><p>Regresi linier untuk early warning efisiensi listrik (SENATIK 2018)</p></div>
+    <div class="card"><span class="tag">Publikasi terpilih</span><p>Fuzzy logic prediksi curah hujan &amp; potensi longsor (IJISTECH 2021)</p></div>
+  </div>
+  <p class="src">Data lengkap publikasi, penelitian &amp; HKI: SINTA ID 6647166 — sinta.kemdiktisaintek.go.id/authors/profile/6647166</p>
+  <aside class="notes">[3:30–5:00] Tunjukkan evolusi riset: dari algoritma klasik (graf), statistik (regresi), soft computing (fuzzy), hingga deep learning video. Pesan: riset tumbuh bertahap, tidak harus langsung canggih. (Perbarui kartu publikasi/HKI sesuai SINTA terbaru sebelum presentasi.)</aside>
+</section>
+
+<!-- 5 -->
+<section>
+  <span class="kicker">Peta perjalanan 60 menit</span>
+  <div class="grid g3">
+    <div class="card hl"><span class="tag">Babak 1</span><h3>PETA</h3><p>Apa itu AI, ML, DL, dan empat keluarga arsitektur deep learning</p></div>
+    <div class="card hl"><span class="tag">Babak 2</span><h3>GELOMBANG</h3><p>LLM, Multimodal AI, dan Agentic AI — tren riset saat ini</p></div>
+    <div class="card hl"><span class="tag">Babak 3</span><h3>KOMPAS</h3><p>Peluang di Riau &amp; Sumatera, etika, dan cara menemukan research gap</p></div>
+  </div>
+  <p class="quote" style="margin-top:1.2em">Mulai dari <em>masalah</em>, bukan dari <strong>model</strong>.</p>
+  <aside class="notes">[5:00–5:30] Sampaikan big idea sejak awal dan janjikan bahwa kalimat ini akan kembali di akhir. Benang merah: kasus karhutla Riau akan "naik level" di setiap babak.</aside>
+</section>
+
+<!-- ===================== BABAK 1: PETA ===================== -->
+
+<!-- 6 -->
+<section>
+  <span class="act"><b>BABAK 1</b> · PETA</span>
+  <span class="kicker">Definisi</span>
+  <h2>Apa itu Kecerdasan Buatan?</h2>
+  <p class="quote" style="font-size:1em">"The science and engineering of making intelligent machines."<cite>— John McCarthy, Dartmouth Workshop 1956</cite></p>
+  <div class="grid g2" style="margin-top:.8em">
+    <div class="card"><h3>Berpikir seperti manusia</h3><p>Cognitive modeling</p></div>
+    <div class="card"><h3>Bertindak seperti manusia</h3><p>Turing Test</p></div>
+    <div class="card"><h3>Berpikir rasional</h3><p>Logika &amp; inferensi</p></div>
+    <div class="card hl"><h3>Bertindak rasional</h3><p><b>Rational agent</b> — pendekatan dominan hari ini</p></div>
+  </div>
+  <p class="src">Russell &amp; Norvig, Artificial Intelligence: A Modern Approach, 4th ed., Pearson, 2021.</p>
+  <aside class="notes">[5:30–7:00] Empat pendekatan Russell &amp; Norvig. Sorot "bertindak rasional": AI sebagai agent yang memaksimalkan hasil. Ini fondasi yang nanti kembali saat membahas Agentic AI — lingkaran cerita tertutup.</aside>
+</section>
+
+<!-- 7 -->
+<section>
+  <span class="act"><b>BABAK 1</b> · PETA</span>
+  <span class="kicker">Sejarah singkat</span>
+  <h2>70 tahun, beberapa musim dingin, satu ledakan</h2>
+  <div class="timeline">
+    <div><b>1956</b>Dartmouth: istilah "AI" lahir</div>
+    <div><b>1970–90an</b>AI Winter &amp; sistem pakar</div>
+    <div><b>2012</b>AlexNet menang ImageNet</div>
+    <div><b>2017</b>Transformer: "Attention Is All You Need"</div>
+    <div><b>2022</b>ChatGPT: AI generatif massal</div>
+    <div><b>2025+</b>Agentic &amp; Multimodal AI</div>
+  </div>
+  <p class="lead center" style="margin-top:1.4em">Pemicu ledakan: <strong>data</strong> + <strong>GPU</strong> + <strong>algoritma</strong></p>
+  <p class="src">Krizhevsky dkk., NeurIPS 2012; Vaswani dkk., NeurIPS 2017; Stanford HAI, AI Index Report 2025.</p>
+  <aside class="notes">[7:00–8:30] Ceritakan sebagai drama: harapan, kekecewaan (AI winter), lalu kebangkitan karena tiga bahan. Pesan: tren riset selalu mengikuti ketersediaan data dan komputasi.</aside>
+</section>
+
+<!-- 8 -->
+<section>
+  <span class="act"><b>BABAK 1</b> · PETA</span>
+  <span class="kicker">Hubungan</span>
+  <h2>AI, Machine Learning, Deep Learning</h2>
+  <div class="grid" style="grid-template-columns:1.1fr 1fr;align-items:center">
+    <svg viewBox="0 0 440 340" width="100%" role="img" aria-label="Diagram lingkaran konsentris AI, ML, DL, Generative AI">
+      <circle cx="220" cy="170" r="165" fill="#12203a" stroke="#60a5fa" stroke-width="3"/>
+      <circle cx="220" cy="200" r="125" fill="#15294a" stroke="#2dd4bf" stroke-width="3"/>
+      <circle cx="220" cy="230" r="85" fill="#1a3358" stroke="#fb923c" stroke-width="3"/>
+      <circle cx="220" cy="262" r="45" fill="#24406b" stroke="#facc15" stroke-width="3"/>
+      <text x="220" y="40" fill="#60a5fa" text-anchor="middle" font-size="22" font-weight="800">Artificial Intelligence</text>
+      <text x="220" y="105" fill="#2dd4bf" text-anchor="middle" font-size="20" font-weight="700">Machine Learning</text>
+      <text x="220" y="180" fill="#fb923c" text-anchor="middle" font-size="19" font-weight="700">Deep Learning</text>
+      <text x="220" y="260" fill="#facc15" text-anchor="middle" font-size="15" font-weight="700">Generative</text>
+      <text x="220" y="278" fill="#facc15" text-anchor="middle" font-size="15" font-weight="700">AI / LLM</text>
+    </svg>
+    <div style="font-size:.7em">
+      <p><strong>AI</strong> — mesin yang meniru perilaku cerdas (termasuk aturan &amp; pencarian)</p>
+      <p><strong>ML</strong> — belajar pola dari <em>data</em>, bukan diprogram eksplisit</p>
+      <p><strong>DL</strong> — ML dengan jaringan saraf <em>berlapis-lapis</em></p>
+      <p><strong>GenAI</strong> — DL yang mampu <em>menciptakan</em> konten baru</p>
+    </div>
+  </div>
+  <p class="src">Goodfellow, Bengio &amp; Courville, Deep Learning, MIT Press, 2016.</p>
+  <aside class="notes">[8:30–10:00] Analogi: AI = "kendaraan"; ML = "kendaraan bermesin"; DL = "mobil listrik"; GenAI = "mobil listrik yang bisa merakit barang". Semua DL adalah ML, tapi tidak semua AI adalah ML (contoh: algoritma A* dan sistem pakar).</aside>
+</section>
+
+<!-- 9 -->
+<section>
+  <span class="act"><b>BABAK 1</b> · PETA</span>
+  <span class="kicker">Perbedaan kunci</span>
+  <h2>Siapa yang merancang fitur?</h2>
+  <div class="grid g2">
+    <div class="card">
+      <span class="tag">Machine Learning klasik</span>
+      <div class="flow" style="margin-top:10px;font-size:.95em"><div>Citra</div><span>→</span><div><em>Manusia</em> pilih fitur</div><span>→</span><div>SVM / RF</div></div>
+      <p>Cocok untuk data tabular kecil, mudah dijelaskan</p>
+    </div>
+    <div class="card hl">
+      <span class="tag">Deep Learning</span>
+      <div class="flow" style="margin-top:10px;font-size:.95em"><div>Citra</div><span>→</span><div><strong>Jaringan</strong> belajar fitur sendiri</div><span>→</span><div>Prediksi</div></div>
+      <p>Butuh data &amp; GPU besar, unggul pada citra, suara, teks</p>
+    </div>
+  </div>
+  <p class="lead center" style="margin-top:1em">Pilih metode sesuai <strong>masalah dan data</strong>, bukan sesuai tren.</p>
+  <p class="src">LeCun, Bengio &amp; Hinton, "Deep learning", Nature 521, 2015.</p>
+  <aside class="notes">[10:00–11:00] Pesan penting untuk skripsi: deep learning tidak selalu jawaban. Data 200 baris tabular? Random Forest bisa lebih baik dan lebih jujur.</aside>
+</section>
+
+<!-- 10 -->
+<section>
+  <span class="act"><b>BABAK 1</b> · PETA</span>
+  <span class="kicker">Empat keluarga</span>
+  <h2>Arsitektur deep learning, menurut jenis datanya</h2>
+  <div class="grid g4">
+    <div class="card hl"><span class="tag">MELIHAT</span><h3>Computer Vision</h3><p>Citra &amp; video</p></div>
+    <div class="card hl"><span class="tag">MENGINGAT URUTAN</span><h3>Sequential Model</h3><p>Teks, suara, deret waktu</p></div>
+    <div class="card hl"><span class="tag">MENCOBA &amp; BELAJAR</span><h3>Reinforcement Learning</h3><p>Keputusan &amp; aksi</p></div>
+    <div class="card hl"><span class="tag">MENCIPTA</span><h3>Generative Network</h3><p>Data &amp; konten baru</p></div>
+  </div>
+  <p class="lead center" style="margin-top:1em">Empat kemampuan manusia — empat keluarga arsitektur.</p>
+  <p class="src">Struktur mengikuti MIT 6.S191 Introduction to Deep Learning (introtodeeplearning.com).</p>
+  <aside class="notes">[11:00–11:30] Slide transisi cepat. Gunakan analogi indra manusia agar mudah diingat.</aside>
+</section>
+
+<!-- 11 -->
+<section>
+  <span class="act"><b>BABAK 1</b> · PETA</span>
+  <span class="kicker">01 · Deep Computer Vision</span>
+  <h2>Mengajari mesin <em>melihat</em></h2>
+  <div class="flow"><div><b>Konvolusi</b>tepi, tekstur</div><span>→</span><div><b>Pooling</b>ringkas</div><span>→</span><div><b>Lapisan dalam</b>bentuk, objek</div><span>→</span><div><b>Klasifikasi</b>"asap"</div></div>
+  <div class="grid g2" style="margin-top:1em">
+    <div class="card"><span class="tag">Arsitektur</span><p>CNN · ResNet · YOLO · U-Net · Vision Transformer (ViT)</p></div>
+    <div class="card warn"><span class="tag">Di dunia nyata</span><p>Deteksi asap dari kamera menara · penyakit daun sawit · CCTV pengenalan aktivitas · citra medis</p></div>
+  </div>
+  <p class="src">He dkk., ResNet, CVPR 2016; Redmon dkk., YOLO, CVPR 2016; Dosovitskiy dkk., ViT, ICLR 2021.</p>
+  <aside class="notes">[11:30–13:00] Benang merah level 1: kamera di menara pantau mendeteksi asap karhutla dengan CNN/YOLO. Hubungkan dengan riset HAR narasumber.</aside>
+</section>
+
+<!-- 12 -->
+<section>
+  <span class="act"><b>BABAK 1</b> · PETA</span>
+  <span class="kicker">02 · Deep Sequential Model</span>
+  <h2>Mengajari mesin <em>mengingat urutan</em></h2>
+  <div class="flow"><div>x<sub>1</sub></div><span>→</span><div>x<sub>2</sub></div><span>→</span><div>x<sub>3</sub></div><span>→</span><div><b>Memori</b>konteks sebelumnya</div><span>→</span><div><b>Prediksi</b>langkah berikutnya</div></div>
+  <div class="grid g2" style="margin-top:1em">
+    <div class="card"><span class="tag">Arsitektur</span><p>RNN · LSTM · GRU · Temporal CNN · Transformer</p></div>
+    <div class="card warn"><span class="tag">Di dunia nyata</span><p>Prediksi titik panas &amp; curah hujan · harga TBS sawit · speech-to-text · terjemahan mesin</p></div>
+  </div>
+  <p class="src">Hochreiter &amp; Schmidhuber, LSTM, Neural Computation 1997; Cho dkk., GRU, EMNLP 2014.</p>
+  <aside class="notes">[13:00–14:30] Benang merah level 2: dari "melihat asap" ke "memprediksi kapan hotspot muncul" berdasarkan deret waktu cuaca &amp; kelembapan gambut.</aside>
+</section>
+
+<!-- 13 -->
+<section>
+  <span class="act"><b>BABAK 1</b> · PETA</span>
+  <span class="kicker">03 · Deep Reinforcement Learning</span>
+  <h2>Mengajari mesin lewat <em>coba-coba</em></h2>
+  <svg viewBox="0 0 900 190" width="100%" role="img" aria-label="Siklus agent dan environment">
+    <rect x="40" y="50" width="220" height="90" rx="14" fill="#172a4a" stroke="#2dd4bf" stroke-width="3"/>
+    <text x="150" y="102" fill="#e8eef8" text-anchor="middle" font-size="26" font-weight="800">Agent</text>
+    <rect x="640" y="50" width="220" height="90" rx="14" fill="#172a4a" stroke="#fb923c" stroke-width="3"/>
+    <text x="750" y="102" fill="#e8eef8" text-anchor="middle" font-size="26" font-weight="800">Environment</text>
+    <path d="M260 75 H640" stroke="#2dd4bf" stroke-width="3" marker-end="url(#a)"/>
+    <text x="450" y="62" fill="#2dd4bf" text-anchor="middle" font-size="20">aksi</text>
+    <path d="M640 120 H260" stroke="#fb923c" stroke-width="3" marker-end="url(#b)"/>
+    <text x="450" y="150" fill="#fb923c" text-anchor="middle" font-size="20">state baru + reward</text>
+    <defs>
+      <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10z" fill="#2dd4bf"/></marker>
+      <marker id="b" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10z" fill="#fb923c"/></marker>
+    </defs>
+  </svg>
+  <div class="grid g2">
+    <div class="card"><span class="tag">Arsitektur</span><p>DQN · PPO · Actor-Critic · AlphaGo/AlphaZero</p></div>
+    <div class="card warn"><span class="tag">Di dunia nyata</span><p>Lampu lalu lintas adaptif · robot gudang · rute drone patroli · RLHF untuk ChatGPT</p></div>
+  </div>
+  <p class="src">Mnih dkk., Nature 2015; Silver dkk., Nature 2016; Sutton &amp; Barto, Reinforcement Learning, 2nd ed., 2018.</p>
+  <aside class="notes">[14:30–16:00] Analogi: belajar naik sepeda — jatuh = reward negatif. Sebutkan bahwa RL juga dipakai menyelaraskan LLM (RLHF), jembatan ke Babak 2.</aside>
+</section>
+
+<!-- 14 -->
+<section>
+  <span class="act"><b>BABAK 1</b> · PETA</span>
+  <span class="kicker">04 · Deep Generative Network</span>
+  <h2>Mengajari mesin <em>mencipta</em></h2>
+  <div class="grid g3">
+    <div class="card"><span class="tag">VAE</span><h3>Kompres → bangun ulang</h3><p>Ruang laten yang halus</p></div>
+    <div class="card"><span class="tag">GAN</span><h3>Pemalsu vs detektif</h3><p>Generator dan diskriminator saling berlomba</p></div>
+    <div class="card hl"><span class="tag">DIFFUSION</span><h3>Noise → gambar</h3><p>Menghapus derau langkah demi langkah</p></div>
+  </div>
+  <div class="card warn" style="margin-top:1em"><span class="tag">Di dunia nyata</span><p>Augmentasi data langka (citra kebakaran, penyakit langka) · text-to-image · desain produk · <em>tetapi juga deepfake</em></p></div>
+  <p class="src">Kingma &amp; Welling, VAE, ICLR 2014; Goodfellow dkk., GAN, NeurIPS 2014; Ho dkk., DDPM, NeurIPS 2020.</p>
+  <aside class="notes">[16:00–17:30] Untuk skripsi: model generatif sangat berguna untuk menambah data saat data lokal sedikit. Tanam benih isu etika (deepfake) yang akan dibahas di Babak 3.</aside>
+</section>
+
+<!-- 15 -->
+<section>
+  <span class="act"><b>BABAK 1</b> · PETA</span>
+  <span class="kicker">Rangkuman babak 1</span>
+  <h2>Satu masalah, empat cara pandang</h2>
+  <table class="cmp">
+    <tr><th>Keluarga</th><th>Pertanyaan pada kasus karhutla Riau</th></tr>
+    <tr><td>Computer Vision</td><td>Apakah ada asap di citra kamera/satelit ini?</td></tr>
+    <tr><td>Sequential</td><td>Kapan &amp; di mana hotspot berikutnya muncul?</td></tr>
+    <tr><td>Reinforcement</td><td>Ke mana tim/drone patroli harus bergerak?</td></tr>
+    <tr><td>Generative</td><td>Bagaimana menambah data citra kebakaran yang langka?</td></tr>
+  </table>
+  <aside class="notes">[17:30–18:30] Tunjukkan bahwa satu masalah nyata bisa melahirkan beberapa judul skripsi berbeda. Inilah cara berpikir "mulai dari masalah".</aside>
+</section>
+
+<!-- ===================== BABAK 2: GELOMBANG ===================== -->
+
+<!-- 16 -->
+<section>
+  <span class="act"><b>BABAK 2</b> · GELOMBANG</span>
+  <span class="kicker">Large Language Model</span>
+  <h2>Mengapa LLM menjadi pusat riset?</h2>
+  <div class="grid g3">
+    <div class="card hl"><h3>Skala</h3><p>Performa naik terprediksi seiring data, parameter, dan komputasi (scaling laws)</p></div>
+    <div class="card hl"><h3>Serba bisa</h3><p>Satu model: menjawab, meringkas, menulis kode, menalar</p></div>
+    <div class="card hl"><h3>Antarmuka baru</h3><p>Bahasa alami menjadi "bahasa pemrograman" baru</p></div>
+  </div>
+  <p class="lead center" style="margin-top:1em">LLM = <strong>foundation model</strong> yang menjadi dasar banyak aplikasi lain</p>
+  <p class="src">Kaplan dkk., "Scaling Laws for Neural Language Models", 2020; Bommasani dkk., "On the Opportunities and Risks of Foundation Models", Stanford, 2021.</p>
+  <aside class="notes">[18:30–20:00] Babak 2 dibuka dengan "gelombang" terbesar. Jelaskan konsep foundation model: dilatih sekali dengan biaya besar, diadaptasi untuk banyak tugas.</aside>
+</section>
+
+<!-- 17 -->
+<section>
+  <span class="act"><b>BABAK 2</b> · GELOMBANG</span>
+  <span class="kicker">Cara kerja LLM</span>
+  <h2>Pada intinya: menebak <em>kata berikutnya</em></h2>
+  <div class="flow">
+    <div><b>Tokenisasi</b>"Asap tebal di" → token</div><span>→</span>
+    <div><b>Embedding</b>token → vektor makna</div><span>→</span>
+    <div><b>Self-attention</b>setiap kata "melihat" kata lain</div><span>→</span>
+    <div><b>Probabilitas</b>"Pekanbaru" 0.41<br>"Dumai" 0.22</div>
+  </div>
+  <p class="lead center" style="margin-top:1.2em">Diulang miliaran kali → muncul kemampuan bahasa, pengetahuan, dan penalaran</p>
+  <p class="src">Vaswani dkk., "Attention Is All You Need", NeurIPS 2017; Jurafsky &amp; Martin, Speech and Language Processing, 3rd ed. draft.</p>
+  <aside class="notes">[20:00–21:30] Contoh langsung: lengkapi kalimat "Asap tebal di ..." Ajak audiens menebak — mereka sedang menjadi LLM. Tekankan: model tidak "tahu kebenaran", ia memodelkan probabilitas; ini akar halusinasi.</aside>
+</section>
+
+<!-- 18 -->
+<section>
+  <span class="act"><b>BABAK 2</b> · GELOMBANG</span>
+  <span class="kicker">Arsitektur &amp; pelatihan</span>
+  <h2>Keluarga Transformer dan tiga tahap pelatihan</h2>
+  <div class="grid g3">
+    <div class="card"><span class="tag">ENCODER</span><h3>BERT, IndoBERT</h3><p>Memahami: klasifikasi, sentimen</p></div>
+    <div class="card"><span class="tag">DECODER</span><h3>GPT, LLaMA, Claude</h3><p>Menghasilkan teks</p></div>
+    <div class="card"><span class="tag">ENCODER-DECODER</span><h3>T5, BART</h3><p>Terjemahan, ringkasan</p></div>
+  </div>
+  <div class="flow" style="margin-top:1em">
+    <div><b>Pre-training</b>triliunan token internet</div><span>→</span>
+    <div><b>Fine-tuning (SFT)</b>contoh instruksi</div><span>→</span>
+    <div><b>Alignment</b>RLHF / DPO</div>
+  </div>
+  <p class="src">Devlin dkk., BERT, NAACL 2019; Raffel dkk., T5, JMLR 2020; Ouyang dkk., InstructGPT, NeurIPS 2022; Rafailov dkk., DPO, NeurIPS 2023.</p>
+  <aside class="notes">[21:30–23:00] Varian modern: Mixture-of-Experts, model kecil (SLM) yang bisa jalan di laptop, serta teknik efisien LoRA/QLoRA — sangat relevan untuk skripsi dengan GPU terbatas.</aside>
+</section>
+
+<!-- 19 -->
+<section>
+  <span class="act"><b>BABAK 2</b> · GELOMBANG</span>
+  <span class="kicker">Tantangan &amp; penerapan</span>
+  <h2>Hebat, tetapi belum selesai</h2>
+  <div class="grid g2">
+    <div class="card warn">
+      <span class="tag">Tantangan riset terbuka</span>
+      <p>Halusinasi · biaya komputasi &amp; energi · bias data · bahasa daerah minim data (low-resource) · evaluasi yang sahih · keamanan (prompt injection)</p>
+    </div>
+    <div class="card hl">
+      <span class="tag">Penerapan nyata</span>
+      <p>RAG untuk chatbot layanan akademik · asisten kode · ringkasan dokumen hukum · NLP bahasa Indonesia &amp; Melayu (IndoBERT, SEA-LION)</p>
+    </div>
+  </div>
+  <p class="lead center" style="margin-top:1em">Setiap <em>tantangan</em> adalah calon <strong>topik skripsi</strong></p>
+  <p class="src">Ji dkk., "Survey of Hallucination in NLG", ACM Computing Surveys 2023; Lewis dkk., RAG, NeurIPS 2020; Wilie dkk., IndoNLU, AACL 2020.</p>
+  <aside class="notes">[23:00–24:30] Contoh judul: "RAG untuk chatbot peraturan akademik kampus", "Deteksi hoaks berbahasa Melayu Riau dengan IndoBERT". Tantangan = gap riset.</aside>
+</section>
+
+<!-- 20 -->
+<section>
+  <span class="act"><b>BABAK 2</b> · GELOMBANG</span>
+  <span class="kicker">Multimodal AI</span>
+  <h2>Dunia nyata tidak hanya berupa <em>teks</em></h2>
+  <div class="grid g4">
+    <div class="card"><h3>Teks</h3><p>Laporan warga</p></div>
+    <div class="card"><h3>Citra</h3><p>Satelit &amp; drone</p></div>
+    <div class="card"><h3>Suara</h3><p>Panggilan darurat</p></div>
+    <div class="card"><h3>Sensor</h3><p>Suhu, kelembapan gambut</p></div>
+  </div>
+  <p class="lead center" style="margin-top:1em">Manusia memahami dunia dengan <strong>banyak indra sekaligus</strong> — AI pun perlu</p>
+  <p class="src">Baltrušaitis, Ahuja &amp; Morency, "Multimodal Machine Learning: A Survey and Taxonomy", IEEE TPAMI 2019.</p>
+  <aside class="notes">[24:30–25:30] Benang merah level 3: satu modalitas sering ambigu (awan vs asap). Menggabungkan citra + sensor + laporan teks membuat keputusan lebih andal.</aside>
+</section>
+
+<!-- 21 -->
+<section>
+  <span class="act"><b>BABAK 2</b> · GELOMBANG</span>
+  <span class="kicker">Cara kerja multimodal</span>
+  <h2>Kapan modalitas <em>digabung</em>?</h2>
+  <div class="grid g3">
+    <div class="card"><span class="tag">EARLY FUSION</span><p>Gabung data mentah/fitur di awal</p></div>
+    <div class="card"><span class="tag">LATE FUSION</span><p>Model terpisah, gabung keputusan di akhir</p></div>
+    <div class="card hl"><span class="tag">INTERMEDIATE</span><p>Cross-attention antarmodalitas — pendekatan modern</p></div>
+  </div>
+  <div class="grid g3" style="margin-top:1em">
+    <div class="card"><span class="tag">CLIP</span><p>Contrastive learning citra–teks dalam satu ruang vektor</p></div>
+    <div class="card"><span class="tag">LLaVA</span><p>Encoder visual + LLM melalui proyektor</p></div>
+    <div class="card"><span class="tag">GPT-4o · Gemini</span><p>Natively multimodal</p></div>
+  </div>
+  <p class="src">Radford dkk., CLIP, ICML 2021; Liu dkk., LLaVA, NeurIPS 2023; Gemini Team, "Gemini: A Family of Highly Capable Multimodal Models", 2023.</p>
+  <aside class="notes">[25:30–27:00] Analogi CLIP: foto dan keterangannya "ditempatkan bersebelahan" di peta makna. Jelaskan tiga strategi fusi sebagai pilihan desain eksperimen skripsi.</aside>
+</section>
+
+<!-- 22 -->
+<section>
+  <span class="act"><b>BABAK 2</b> · GELOMBANG</span>
+  <span class="kicker">Multimodal di dunia nyata</span>
+  <h2>Ketika AI melihat, mendengar, dan membaca</h2>
+  <div class="grid g2">
+    <div class="card"><h3>Kesehatan</h3><p>Rontgen + rekam medis → diagnosis pendukung</p></div>
+    <div class="card"><h3>Pertanian</h3><p>Foto tanaman + cuaca → rekomendasi pemupukan</p></div>
+    <div class="card"><h3>Aksesibilitas</h3><p>Visual Question Answering untuk tunanetra</p></div>
+    <div class="card warn"><h3>Kebencanaan</h3><p>Citra satelit + sensor + laporan warga → peta risiko karhutla</p></div>
+  </div>
+  <aside class="notes">[27:00–28:00] Ajak audiens membayangkan aplikasi di kampus: absensi dengan wajah + suara, analisis video perkuliahan + transkrip.</aside>
+</section>
+
+<!-- 23 -->
+<section>
+  <span class="act"><b>BABAK 2</b> · GELOMBANG</span>
+  <span class="kicker">Agentic AI</span>
+  <h2>Dari AI yang <em>menjawab</em> ke AI yang <strong>bertindak</strong></h2>
+  <table class="cmp">
+    <tr><th></th><th>Generative AI</th><th>Agentic AI</th></tr>
+    <tr><td>Peran</td><td>Menghasilkan konten</td><td>Mencapai tujuan</td></tr>
+    <tr><td>Pola</td><td>Satu prompt → satu jawaban</td><td>Rencana → aksi → evaluasi → ulangi</td></tr>
+    <tr><td>Akses</td><td>Pengetahuan dalam model</td><td>Tools, API, web, basis data, memori</td></tr>
+    <tr><td>Otonomi</td><td>Rendah — manusia menyetir</td><td>Tinggi — manusia mengawasi</td></tr>
+    <tr><td>Contoh</td><td>"Tuliskan email izin"</td><td>"Atur rapat, kirim undangan, siapkan notulen"</td></tr>
+  </table>
+  <p class="src">Russell &amp; Norvig, 2021 (rational agent); Wang dkk., "A Survey on LLM-based Autonomous Agents", Frontiers of Computer Science 2024.</p>
+  <aside class="notes">[28:00–29:30] Tutup lingkaran: definisi AI sebagai "rational agent" dari slide 6 kini menjadi nyata dengan LLM sebagai otaknya.</aside>
+</section>
+
+<!-- 24 -->
+<section>
+  <span class="act"><b>BABAK 2</b> · GELOMBANG</span>
+  <span class="kicker">Anatomi &amp; cara belajar agent</span>
+  <h2>Otak, tangan, ingatan, dan refleksi</h2>
+  <div class="flow">
+    <div><b>Persepsi</b>membaca tujuan &amp; konteks</div><span>→</span>
+    <div><b>Penalaran</b>LLM merencanakan langkah</div><span>→</span>
+    <div><b>Aksi</b>memanggil tools</div><span>→</span>
+    <div><b>Refleksi</b>menilai hasil, memperbaiki</div>
+  </div>
+  <div class="grid g3" style="margin-top:1em">
+    <div class="card"><span class="tag">Dari contoh</span><p>In-context learning &amp; ReAct (reason + act)</p></div>
+    <div class="card"><span class="tag">Dari umpan balik</span><p>Reflexion · RLHF · reward dari lingkungan</p></div>
+    <div class="card"><span class="tag">Dari pengalaman</span><p>Memori jangka panjang · multi-agent berkolaborasi</p></div>
+  </div>
+  <p class="src">Yao dkk., ReAct, ICLR 2023; Shinn dkk., Reflexion, NeurIPS 2023; Park dkk., Generative Agents, UIST 2023.</p>
+  <aside class="notes">[29:30–31:00] Analogi: agent seperti asisten magang — diberi tujuan, mencari cara, bertanya ke alat, belajar dari kesalahan. Benang merah level 4: agent memantau hotspot, menarik data cuaca, membuat laporan, mengirim peringatan ke BPBD.</aside>
+</section>
+
+<!-- 25 -->
+<section>
+  <span class="act"><b>BABAK 2</b> · GELOMBANG</span>
+  <span class="kicker">Tools agentic</span>
+  <h2>Bisa kamu coba mulai hari ini</h2>
+  <div class="grid g3">
+    <div class="card"><span class="tag">FRAMEWORK</span><p>LangChain / LangGraph · LlamaIndex · CrewAI · AutoGen</p></div>
+    <div class="card"><span class="tag">PROTOKOL</span><p>Model Context Protocol (MCP) · function calling</p></div>
+    <div class="card"><span class="tag">OTOMASI LOW-CODE</span><p>n8n · Make · Zapier AI</p></div>
+    <div class="card"><span class="tag">AGEN KODING</span><p>Claude Code · GitHub Copilot agent · Cursor</p></div>
+    <div class="card"><span class="tag">AGEN RISET</span><p>Deep Research · Elicit · NotebookLM</p></div>
+    <div class="card"><span class="tag">MODEL TERBUKA</span><p>Llama · Qwen · Mistral via Ollama (lokal)</p></div>
+  </div>
+  <aside class="notes">[31:00–32:00] Sarankan memulai dengan model terbuka lokal + LangGraph untuk skripsi agar biaya rendah dan dapat direplikasi.</aside>
+</section>
+
+<!-- 26 -->
+<section>
+  <span class="act"><b>BABAK 2</b> · GELOMBANG</span>
+  <span class="kicker">Benang merah</span>
+  <h2>Satu masalah karhutla, empat level solusi</h2>
+  <div class="flow">
+    <div><b>Level 1 · CV</b>Kamera mendeteksi asap</div><span>→</span>
+    <div><b>Level 2 · Sequential</b>Memprediksi hotspot</div><span>→</span>
+    <div><b>Level 3 · Multimodal</b>Satelit + sensor + laporan</div><span>→</span>
+    <div><b>Level 4 · Agentic</b>Memantau, melapor, memperingatkan</div>
+  </div>
+  <p class="lead center" style="margin-top:1.2em">Tren berubah, <strong>masalahnya tetap</strong>. Pilih level yang sesuai kemampuan &amp; data kamu.</p>
+  <aside class="notes">[32:00–33:00] Penutup Babak 2. Pesan: skripsi S1 tidak harus level 4; level 1 yang dikerjakan dengan data lokal dan evaluasi kuat sudah berkontribusi.</aside>
+</section>
+
+<!-- ===================== BABAK 3: KOMPAS ===================== -->
+
+<!-- 27 -->
+<section>
+  <span class="act"><b>BABAK 3</b> · KOMPAS</span>
+  <span class="kicker">Peluang di sekitar kita</span>
+  <h2>Riau &amp; Sumatera: laboratorium riset AI</h2>
+  <div class="grid g3">
+    <div class="card"><span class="tag">INDUSTRI</span><p>Sawit (hitung pohon, penyakit Ganoderma, grading TBS) · migas (predictive maintenance) · pulp &amp; paper · perikanan</p></div>
+    <div class="card"><span class="tag">PENDIDIKAN</span><p>Tutor adaptif · chatbot akademik · deteksi teks AI · analitik risiko putus kuliah</p></div>
+    <div class="card"><span class="tag">MASYARAKAT</span><p>Karhutla &amp; gambut · banjir · NLP Melayu Riau &amp; Minang · kesehatan desa · UMKM &amp; pariwisata</p></div>
+  </div>
+  <p class="src">Strategi Nasional Kecerdasan Artifisial Indonesia 2020–2045 (BPPT/BRIN); data hotspot: SiPongi KLHK, NASA FIRMS.</p>
+  <aside class="notes">[33:00–35:30] Bagian penting: sebutkan sumber data terbuka (NASA FIRMS, SiPongi, BPS Riau, Sentinel-2) sehingga mahasiswa tahu ide ini bisa dikerjakan. Ajak audiens menyebut satu masalah di sekitar kampus.</aside>
+</section>
+
+<!-- 28 -->
+<section>
+  <span class="act"><b>BABAK 3</b> · KOMPAS</span>
+  <span class="kicker">Rem sebelum gas</span>
+  <h2>Empat pilar AI yang bertanggung jawab</h2>
+  <div class="grid g4">
+    <div class="card"><h3>Etika</h3><p>Bias &amp; keadilan · deepfake · hak cipta · transparansi</p></div>
+    <div class="card"><h3>Keamanan</h3><p>Prompt injection · adversarial attack · jailbreak</p></div>
+    <div class="card"><h3>Privasi</h3><p>Data wajah &amp; pribadi · UU PDP No. 27/2022 · anonimisasi</p></div>
+    <div class="card"><h3>Kehandalan</h3><p>Halusinasi · explainability · robust pada data lokal</p></div>
+  </div>
+  <p class="src">UNESCO, Recommendation on the Ethics of AI, 2021; NIST AI Risk Management Framework 1.0, 2023; UU RI No. 27 Tahun 2022 tentang Pelindungan Data Pribadi.</p>
+  <aside class="notes">[35:30–37:00] Untuk riset CCTV/wajah (termasuk riset narasumber): wajib izin, anonimisasi, dan kesadaran bias. Setiap proposal skripsi AI sebaiknya punya subbab etika data.</aside>
+</section>
+
+<!-- 29 -->
+<section>
+  <span class="act"><b>BABAK 3</b> · KOMPAS</span>
+  <span class="kicker">Bahaya yang tak terlihat</span>
+  <h2>Empat jebakan saat terlalu bergantung pada AI</h2>
+  <div class="grid g2">
+    <div class="card warn"><h3>Cognitive Atrophy</h3><p>Otot berpikir melemah karena semua diserahkan ke AI</p></div>
+    <div class="card warn"><h3>Illusion of Competence</h3><p>Merasa paham karena jawabannya terdengar meyakinkan</p></div>
+    <div class="card warn"><h3>Erosion of Curiosity &amp; Agency</h3><p>Berhenti bertanya "mengapa" dan menyerahkan keputusan</p></div>
+    <div class="card warn"><h3>Ethical Anaesthesia</h3><p>Mati rasa terhadap plagiarisme, bias, dan dampak</p></div>
+  </div>
+  <p class="src">Kosmyna dkk., "Your Brain on ChatGPT", MIT Media Lab, 2025; Gerlich, "AI Tools in Society: Cognitive Offloading", Societies 15(1), 2025; Bjork dkk., Annual Review of Psychology, 2013.</p>
+  <aside class="notes">[37:00–39:00] Ceritakan temuan MIT Media Lab: peserta yang menulis esai dengan ChatGPT menunjukkan keterlibatan otak lebih rendah dan sulit mengingat isi esainya sendiri. Ilusi kompetensi: membaca jawaban ≠ mampu mengerjakan.</aside>
+</section>
+
+<!-- 30 -->
+<section>
+  <span class="act"><b>BABAK 3</b> · KOMPAS</span>
+  <span class="kicker">Penangkal</span>
+  <h2>AI sebagai <strong>sparring partner</strong>, bukan <em>joki</em></h2>
+  <div class="grid g2">
+    <div class="card hl"><h3>Coba dulu, baru tanya</h3><p>Tulis jawabanmu sendiri, lalu bandingkan → melawan atrofi</p></div>
+    <div class="card hl"><h3>Jelaskan ulang tanpa melihat</h3><p>Uji pemahaman → melawan ilusi kompetensi</p></div>
+    <div class="card hl"><h3>Tanyakan "mengapa" 3 kali</h3><p>Pertahankan rasa ingin tahu &amp; kendali keputusan</p></div>
+    <div class="card hl"><h3>Verifikasi &amp; deklarasikan</h3><p>Cek sumber, nyatakan penggunaan AI → jaga integritas</p></div>
+  </div>
+  <aside class="notes">[39:00–40:30] Berikan contoh prompt yang sehat: "Jangan beri jawaban, beri saya pertanyaan untuk menguji pemahaman saya tentang LSTM."</aside>
+</section>
+
+<!-- 31 -->
+<section>
+  <span class="act"><b>BABAK 3</b> · KOMPAS</span>
+  <span class="kicker">Menemukan research gap</span>
+  <h2>Gap bukan dicari di langit, tetapi di <em>batas</em> paper lain</h2>
+  <div class="grid g3">
+    <div class="card"><span class="tag">GAP DATA</span><p>Belum ada dataset lokal (bahasa Melayu, citra sawit Riau)</p></div>
+    <div class="card"><span class="tag">GAP METODE</span><p>Metode baru belum diuji pada masalah ini</p></div>
+    <div class="card"><span class="tag">GAP KONTEKS</span><p>Berhasil di negara lain, belum di Indonesia</p></div>
+    <div class="card"><span class="tag">GAP EVALUASI</span><p>Metrik/baseline belum adil atau belum lengkap</p></div>
+    <div class="card"><span class="tag">GAP EFISIENSI</span><p>Akurat tapi terlalu berat untuk perangkat murah</p></div>
+    <div class="card hl"><span class="tag">CARA CEPAT</span><p>Baca bagian <b>Limitation &amp; Future Work</b> dari 10–20 paper terbaru</p></div>
+  </div>
+  <p class="src">Alat bantu: Google Scholar · Semantic Scholar · Connected Papers · Elicit · Scopus/SINTA · Papers with Code. Metode: Kitchenham, Systematic Literature Review guidelines, 2007; PRISMA 2020.</p>
+  <aside class="notes">[40:30–43:00] Tunjukkan workflow: kata kunci → 20 paper 3 tahun terakhir → tabel matriks literatur (masalah, data, metode, hasil, keterbatasan) → kolom kosong = gap.</aside>
+</section>
+
+<!-- 32 -->
+<section>
+  <span class="act"><b>BABAK 3</b> · KOMPAS</span>
+  <span class="kicker">Keunikan &amp; standar S1</span>
+  <h2>Rumus skripsi AI yang kuat</h2>
+  <p class="big center" style="font-size:1.1em"><em>Masalah nyata</em> + <strong>Data</strong> + <strong>Metode</strong> + <em>Evaluasi terukur</em> = Kontribusi</p>
+  <div class="grid g3" style="margin-top:.6em">
+    <div class="card"><h3>Rumusan jelas</h3><p>Satu pertanyaan riset yang bisa diuji</p></div>
+    <div class="card"><h3>Baseline</h3><p>Bandingkan dengan metode pembanding yang adil</p></div>
+    <div class="card"><h3>Metrik tepat</h3><p>F1, mAP, RMSE, BLEU, uji pengguna</p></div>
+    <div class="card"><h3>Ablation</h3><p>Komponen mana yang benar-benar berpengaruh?</p></div>
+    <div class="card"><h3>Reproducible</h3><p>Kode di GitHub, data &amp; seed terdokumentasi</p></div>
+    <div class="card"><h3>Dampak</h3><p>Prototipe/uji coba ke pengguna nyata</p></div>
+  </div>
+  <aside class="notes">[43:00–45:30] Keunikan tidak harus metode baru; bisa dataset baru, konteks baru, atau kombinasi baru yang dievaluasi dengan jujur. Hindari judul "Implementasi X untuk Y" tanpa pembanding dan analisis.</aside>
+</section>
+
+<!-- 33 -->
+<section>
+  <span class="act"><b>BABAK 3</b> · KOMPAS</span>
+  <span class="kicker">Peta jalan</span>
+  <h2>Dari ide ke publikasi dalam 6 langkah</h2>
+  <div class="flow">
+    <div><b>1</b>Amati masalah di sekitar</div><span>→</span>
+    <div><b>2</b>Matriks literatur &amp; gap</div><span>→</span>
+    <div><b>3</b>Kumpulkan &amp; anotasi data</div><span>→</span>
+    <div><b>4</b>Baseline → model usulan</div><span>→</span>
+    <div><b>5</b>Evaluasi, ablation, etika</div><span>→</span>
+    <div><b>6</b>Publikasi &amp; open-source</div>
+  </div>
+  <div class="grid g2" style="margin-top:1em">
+    <div class="card"><span class="tag">MULAI SEKARANG</span><p>Semester 5–6: ikut riset dosen, lomba, Kaggle, MBKM riset</p></div>
+    <div class="card"><span class="tag">TARGET LULUS</span><p>Skripsi + artikel jurnal SINTA / konferensi nasional/internasional</p></div>
+  </div>
+  <aside class="notes">[45:30–48:00] Dorong mahasiswa mendekati dosen dan bergabung dengan kelompok riset sejak awal. Publikasi adalah bonus yang realistis jika langkah 1–5 rapi.</aside>
+</section>
+
+<!-- ===================== PENUTUP ===================== -->
+
+<!-- 34 -->
+<section>
+  <span class="kicker">Penutup</span>
+  <p class="quote">"The best way to predict the future is to invent it."<cite>— Alan Kay</cite></p>
+  <p class="lead" style="margin-top:1em">Jadilah peneliti yang memakai AI untuk <strong>memperbesar kemanusiaan</strong>, bukan menggantikannya. Kabut asap, gambut, sawit, dan bahasa ibu kita sedang menunggu solusi — dari <em>kamu</em>.</p>
+  <p class="big center" style="margin-top:.6em">Mulai dari <em>masalah</em>, bukan dari <strong>model</strong>.</p>
+  <p class="center muted" style="font-size:.55em">Terima kasih · Sesi Tanya Jawab · rahman.indra@if.itera.ac.id</p>
+  <aside class="notes">[48:00–50:00 + cadangan 10 menit] Ulangi big idea. Kembali ke pertanyaan pembuka: "Bisakah AI membantu mengatasi kabut asap?" Jawabannya: bisa — jika kalian yang membangunnya. Buka sesi tanya jawab 30 menit.</aside>
+</section>
+
+</div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/notes/notes.min.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: 'c/t',
+    width: 1280,
+    height: 720,
+    margin: 0.06,
+    center: false,
+    transition: 'slide',
+    plugins: [RevealNotes]
+  });
+</script>
+</body>
+</html>
