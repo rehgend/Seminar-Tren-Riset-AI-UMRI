@@ -16,7 +16,7 @@ Narasumber: Rahman Indra Kesuma — Teknik Informatika, Institut Teknologi Sumat
 
 | Bagian | Slide | Waktu | Fungsi dalam cerita |
 |---|---|---|---|
-| Pembuka | 1–5 | 5' | Hook ("Berapa kali kamu pakai AI hari ini?"), perkenalan narasumber, peta perjalanan, big idea |
+| Pembuka | 1–5 | 5' | Hook ("Berapa kali kamu pakai AI hari ini?", 05.30–22.30), perkenalan narasumber, peta perjalanan, big idea |
 | Babak 1 — Peta | 6–15 | 13' | Definisi AI, sejarah, AI ⊃ ML ⊃ DL ⊃ GenAI, empat keluarga arsitektur DL beserta contoh nyata, rangkuman "satu masalah, empat cara pandang" |
 | Babak 2 — Gelombang | 16–26 | 15' | LLM (mengapa tren, cara kerja, arsitektur, tantangan), Multimodal AI (mengapa, cara kerja, pendekatan, penerapan), Agentic AI (vs GenAI, anatomi & cara belajar, tools), benang merah 4 level |
 | Babak 3 — Kompas | 27–33 | 15' | Peluang di Riau & Sumatera, empat pilar AI bertanggung jawab, empat jebakan kognitif + penangkal, research gap, rumus skripsi S1, peta jalan 6 langkah |
@@ -28,7 +28,7 @@ Narasumber: Rahman Indra Kesuma — Teknik Informatika, Institut Teknologi Sumat
 
 **Pembuka**
 1. Judul
-2. Hook: AI dalam keseharian (pagi, kuliah, jalan, Riau — satelit memantau titik api)
+2. Hook: sehari bersama AI, dari bangun tidur sampai menjelang tidur (belajar, mobilitas, hiburan), ditutup pertanyaan benang merah kabut asap Riau
 3. Profil narasumber: pendidikan (Unila → UGM → ITB), mata kuliah yang diampu
 4. Fokus riset: Human Activity Recognition dari video domain kriminalitas + publikasi terpilih
 5. Peta perjalanan tiga babak + big idea
