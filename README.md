@@ -3,7 +3,7 @@
 Presentasi **"Tren Riset Informatika Masa Kini dan Masa Mendatang (Bidang Kecerdasan Buatan)"**
 oleh Rahman Indra Kesuma (Teknik Informatika, Institut Teknologi Sumatera).
 
-Sesi 90 menit: ±60 menit pemaparan (34 slide) + ±30 menit tanya jawab.
+Sesi 90 menit: ±60 menit pemaparan (37 slide, termasuk 3 Ruang Diskusi) + ±30 menit tanya jawab.
 Big idea: **"Mulai dari masalah, bukan dari model."**
 
 ## Isi repo
@@ -12,6 +12,7 @@ Big idea: **"Mulai dari masalah, bukan dari model."**
 |---|---|
 | `index.html` | Deck utama (reveal.js), siap untuk GitHub Pages |
 | `assets/css/theme.css` | Tema visual deck |
+| `assets/img/diskusi-*.svg/.png` | Ilustrasi Ruang Diskusi (SVG untuk HTML, PNG untuk PPTX) |
 | `docs/kerangka-presentasi.md` | Tujuan, big idea, angle, alokasi waktu, outline, referensi |
 | `pptx/Seminar-Tren-Riset-AI.pptx` | Cadangan PowerPoint (dengan speaker notes) |
 | `pptx/build_pptx.py` | Membangun ulang PPTX dari `index.html` |

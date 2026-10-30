@@ -290,6 +290,27 @@ def render_agent_loop(slide, y):
     return y + bh + Inches(0.2)
 
 
+def render_split(slide, grid, y):
+    """Gambar di kiri (PNG pendamping SVG), kartu pertanyaan ditumpuk di kanan."""
+    img = grid.find("img")
+    png = ROOT / Path(img["src"]).with_suffix(".png")
+    iw = int(CW * 0.55)
+    ih = int(iw * 500 / 800)
+    slide.shapes.add_picture(str(png), MX, y, iw, ih)
+    gap = Inches(0.3)
+    x = MX + iw + gap
+    cw = CW - iw - gap
+    cards = grid.find_all("div", class_="card")
+    w_in = cw / 914400 - 0.3
+    heights = [card_height(c, w_in) for c in cards]
+    total = Inches(sum(heights)) + Inches(0.15) * (len(cards) - 1)
+    cy = y + max(0, (ih - total) // 2)
+    for c, h in zip(cards, heights):
+        draw_card(slide, c, x, cy, cw, Inches(h))
+        cy += Inches(h + 0.15)
+    return y + max(ih, total)
+
+
 def render_profile(slide, prof, y):
     d = Inches(2.4)
     o = slide.shapes.add_shape(MSO_SHAPE.OVAL, MX, y + Inches(0.3), d, d)
@@ -379,7 +400,9 @@ def build():
                     add_text(s, MX, y, CW, Inches(hh), runs_of(el), size, color, bold="big" in cls, align=align)
                     y += Inches(hh + 0.2)
             elif el.name == "div" and "grid" in cls:
-                if el.find("svg"):
+                if el.find("img"):
+                    y = render_split(s, el, y) + Inches(0.25)
+                elif el.find("svg"):
                     render_concentric(s, y)
                     side = el.find_all("div", recursive=False)[0]
                     yy = y + Inches(1.0)

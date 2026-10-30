@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="Plus Jakarta Sans, Arial, sans-serif">
+  <defs>
+    <filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="blur14"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="blur3"><feGaussianBlur stdDeviation="3"/></filter>
+    <pattern id="terrain" width="380" height="400" patternUnits="userSpaceOnUse">
+      <rect width="380" height="400" fill="#2f4a2a"/>
+      <path d="M0 80 L120 60 L200 110 L380 70 L380 150 L230 170 L90 140 L0 160Z" fill="#3d5c33"/>
+      <path d="M0 250 L150 230 L260 280 L380 240 L380 330 L200 350 L60 320 L0 340Z" fill="#4a6b3a"/>
+      <path d="M40 0 L80 0 L90 400 L50 400Z" fill="#5b7a43" opacity=".5"/>
+      <rect x="220" y="190" width="110" height="60" fill="#6b7d3f" opacity=".55"/>
+      <rect x="235" y="200" width="80" height="40" fill="none" stroke="#7d8f4a" stroke-width="2" opacity=".6"/>
+      <path d="M0 210 C 80 190, 140 240, 210 215 S 330 180, 380 200" stroke="#5f7f8f" stroke-width="7" fill="none"/>
+    </pattern>
+    <clipPath id="tile"><rect width="380" height="400" rx="12"/></clipPath>
+  </defs>
+  <rect width="800" height="500" fill="#0b1426"/>
+
+  <!-- Citra A: asap -->
+  <g transform="translate(14,50)">
+    <rect width="380" height="400" rx="12" fill="url(#terrain)"/>
+    <g clip-path="url(#tile)"><g filter="url(#blur14)" opacity=".85">
+      <ellipse cx="110" cy="300" rx="40" ry="26" fill="#b3a593"/>
+      <ellipse cx="170" cy="250" rx="60" ry="34" fill="#a99a87" transform="rotate(-30 170 250)"/>
+      <ellipse cx="240" cy="190" rx="80" ry="40" fill="#a3988a" transform="rotate(-32 240 190)" opacity=".85"/>
+      <ellipse cx="310" cy="120" rx="95" ry="44" fill="#9c958c" transform="rotate(-34 310 120)" opacity=".7"/>
+      <ellipse cx="365" cy="60" rx="90" ry="40" fill="#9a958f" transform="rotate(-36 365 60)" opacity=".5"/>
+    </g></g>
+    <g filter="url(#blur3)">
+      <circle cx="100" cy="318" r="7" fill="#ff5a1f"/>
+      <circle cx="114" cy="324" r="5" fill="#ffb020"/>
+      <circle cx="90" cy="328" r="4" fill="#ff7a1a"/>
+    </g>
+    <rect width="380" height="400" rx="12" fill="none" stroke="#2a4268" stroke-width="2"/>
+  </g>
+
+  <!-- Citra B: awan -->
+  <g transform="translate(406,50)">
+    <rect width="380" height="400" rx="12" fill="url(#terrain)"/>
+    <g clip-path="url(#tile)"><g filter="url(#blur8)" fill="#14210f" opacity=".55">
+      <circle cx="135" cy="175" r="38"/><circle cx="175" cy="160" r="45"/><circle cx="215" cy="180" r="35"/>
+      <circle cx="275" cy="315" r="30"/><circle cx="305" cy="305" r="36"/>
+      <circle cx="80" cy="330" r="22"/>
+    </g></g>
+    <g filter="url(#blur3)" fill="#f4f6f8">
+      <circle cx="110" cy="140" r="38"/><circle cx="150" cy="122" r="45"/><circle cx="190" cy="142" r="35"/><circle cx="150" cy="155" r="40"/>
+      <circle cx="250" cy="282" r="30"/><circle cx="282" cy="272" r="36"/><circle cx="270" cy="296" r="28"/>
+      <circle cx="60" cy="300" r="22"/><circle cx="76" cy="294" r="18"/>
+    </g>
+    <rect width="380" height="400" rx="12" fill="none" stroke="#2a4268" stroke-width="2"/>
+  </g>
+
+  <text x="204" y="34" fill="#e8eef8" font-size="24" font-weight="800" text-anchor="middle">Citra A</text>
+  <text x="596" y="34" fill="#e8eef8" font-size="24" font-weight="800" text-anchor="middle">Citra B</text>
+  <text x="400" y="482" fill="#9fb2cf" font-size="15" text-anchor="middle">Ilustrasi citra satelit kawasan gambut &amp; kebun sawit</text>
+</svg>
