@@ -9,7 +9,7 @@ Narasumber: Rahman Indra Kesuma — Teknik Informatika, Institut Teknologi Sumat
 | **Tujuan utama** | Mahasiswa memahami peta AI (AI → ML → DL → LLM → Multimodal → Agentic) dan mampu menerjemahkan satu masalah nyata di sekitarnya (Riau/Sumatera) menjadi rencana riset/skripsi AI dengan research gap yang jelas. |
 | **Satu ide yang harus diingat** | **"Mulai dari masalah, bukan dari model."** AI hanyalah alat; riset bernilai lahir dari masalah nyata di sekitar kita, dikerjakan dengan pikiran yang tetap kritis. |
 | **Sudut pandang (angle)** | *Perjalanan tiga babak*: **Peta** (memahami AI) → **Gelombang** (tren riset) → **Kompas** (peluang, etika, cara meneliti). Satu studi kasus benang merah — **kebakaran hutan & lahan (karhutla) Riau** — "naik level" di setiap babak: CNN mendeteksi asap → model sekuensial memprediksi hotspot → multimodal menggabungkan satelit, sensor, dan laporan warga → agent memantau dan memberi peringatan. |
-| **Jumlah slide** | **34 slide** untuk ±50 menit pemaparan + ±10 menit cadangan (interaksi audiens), lalu 30 menit tanya jawab. Total sesi 90 menit. |
+| **Jumlah slide** | **37 slide** (34 slide materi + 3 slide Ruang Diskusi) untuk ±60 menit pemaparan, lalu 30 menit tanya jawab. Total sesi 90 menit. |
 | **Prinsip visual** | Satu pesan per slide, maksimal ±25 kata, diagram menggantikan paragraf, kutipan sumber kecil di kaki slide. Naskah lengkap ada di speaker notes (tekan `S`). |
 
 ## 2. Alur dan alokasi waktu
@@ -17,11 +17,10 @@ Narasumber: Rahman Indra Kesuma — Teknik Informatika, Institut Teknologi Sumat
 | Bagian | Slide | Waktu | Fungsi dalam cerita |
 |---|---|---|---|
 | Pembuka | 1–5 | 5' | Hook ("Berapa kali kamu pakai AI hari ini?", 05.30–22.30), perkenalan narasumber, peta perjalanan, big idea |
-| Babak 1 — Peta | 6–15 | 13' | Definisi AI, sejarah, AI ⊃ ML ⊃ DL ⊃ GenAI, empat keluarga arsitektur DL beserta contoh nyata, rangkuman "satu masalah, empat cara pandang" |
-| Babak 2 — Gelombang | 16–26 | 15' | LLM (mengapa tren, cara kerja, arsitektur, tantangan), Multimodal AI (mengapa, cara kerja, pendekatan, penerapan), Agentic AI (vs GenAI, anatomi & cara belajar, tools), benang merah 4 level |
-| Babak 3 — Kompas | 27–33 | 15' | Peluang di Riau & Sumatera, empat pilar AI bertanggung jawab, empat jebakan kognitif + penangkal, research gap, rumus skripsi S1, peta jalan 6 langkah |
-| Penutup | 34 | 2' | Quote, kembali ke big idea dan pertanyaan pembuka |
-| Cadangan | — | 10' | Interaksi audiens/contoh tambahan |
+| Babak 1 — Peta | 6–16 | 16' | Definisi AI, sejarah, AI ⊃ ML ⊃ DL ⊃ GenAI, empat keluarga arsitektur DL beserta contoh nyata, rangkuman "satu masalah, empat cara pandang", **Ruang Diskusi 1** |
+| Babak 2 — Gelombang | 17–28 | 18' | LLM (mengapa tren, cara kerja, arsitektur, tantangan), Multimodal AI (mengapa, cara kerja, pendekatan, penerapan), Agentic AI (vs GenAI, anatomi & cara belajar, tools), benang merah 4 level, **Ruang Diskusi 2** |
+| Babak 3 — Kompas | 29–36 | 19' | Peluang di Riau & Sumatera, empat pilar AI bertanggung jawab, **Ruang Diskusi 3**, empat jebakan kognitif + penangkal, research gap, rumus skripsi S1, peta jalan 6 langkah |
+| Penutup | 37 | 2' | Quote, kembali ke big idea dan pertanyaan pembuka |
 | Tanya jawab | — | 30' | Diskusi |
 
 ## 3. Outline per slide
@@ -44,31 +43,34 @@ Narasumber: Rahman Indra Kesuma — Teknik Informatika, Institut Teknologi Sumat
 13. Deep Reinforcement Learning: DQN, PPO, AlphaGo — lalu lintas, robot, drone, RLHF
 14. Deep Generative Network: VAE, GAN, Diffusion — augmentasi data, text-to-image, deepfake
 15. Rangkuman: satu masalah karhutla, empat cara pandang
+16. **Ruang Diskusi 1 — Asap atau awan?** Dua ilustrasi citra satelit; peserta menebak mana yang asap, menyebut petunjuk visual (fitur), dan merancang data/label untuk CNN (3')
 
 **Babak 2 — Gelombang**
-16. LLM: mengapa jadi pusat riset (scaling laws, serba bisa, foundation model)
-17. Cara kerja LLM: tokenisasi → embedding → self-attention → prediksi token berikutnya
-18. Arsitektur: encoder/decoder/encoder-decoder; pre-training → SFT → RLHF/DPO
-19. Tantangan (halusinasi, biaya, bias, low-resource language, evaluasi, keamanan) & penerapan (RAG, IndoBERT, SEA-LION)
-20. Multimodal AI: mengapa dibutuhkan
-21. Cara kerja: early/late/intermediate fusion; CLIP, LLaVA, GPT-4o/Gemini
-22. Penerapan multimodal: kesehatan, pertanian, aksesibilitas, kebencanaan
-23. Generative AI vs Agentic AI (tabel)
-24. Anatomi agent & cara belajar: persepsi–penalaran–aksi–refleksi; ReAct, Reflexion, memori, multi-agent
-25. Tools agentic: LangGraph, CrewAI, AutoGen, MCP, n8n, Claude Code, Copilot, Ollama
-26. Benang merah: karhutla level 1–4
+17. LLM: mengapa jadi pusat riset (scaling laws, serba bisa, foundation model)
+18. Cara kerja LLM: tokenisasi → embedding → self-attention → prediksi token berikutnya
+19. Arsitektur: encoder/decoder/encoder-decoder; pre-training → SFT → RLHF/DPO
+20. Tantangan (halusinasi, biaya, bias, low-resource language, evaluasi, keamanan) & penerapan (RAG, IndoBERT, SEA-LION)
+21. Multimodal AI: mengapa dibutuhkan
+22. Cara kerja: early/late/intermediate fusion; CLIP, LLaVA, GPT-4o/Gemini
+23. Penerapan multimodal: kesehatan, pertanian, aksesibilitas, kebencanaan
+24. Generative AI vs Agentic AI (tabel)
+25. Anatomi agent & cara belajar: persepsi–penalaran–aksi–refleksi; ReAct, Reflexion, memori, multi-agent
+26. Tools agentic: LangGraph, CrewAI, AutoGen, MCP, n8n, Claude Code, Copilot, Ollama
+27. Benang merah: karhutla level 1–4
+28. **Ruang Diskusi 2 — Yakin, tapi benarkah?** Mockup chat AI yang memberi referensi fiktif ber-DOI lalu agent mengirimnya ke dosen; bahas verifikasi, penyebab halusinasi, dan tanggung jawab (3')
 
 **Babak 3 — Kompas**
-27. Peluang AI di Riau & Sumatera: industri, pendidikan, masyarakat (+ sumber data terbuka)
-28. Empat pilar: etika, keamanan, privasi (UU PDP), kehandalan
-29. Empat jebakan: Cognitive Atrophy, Illusion of Competence, Erosion of Curiosity & Agency, Ethical Anaesthesia
-30. Penangkal: AI sebagai sparring partner, bukan joki
-31. Lima jenis research gap + cara cepat (Limitation & Future Work) + tools literatur
-32. Rumus skripsi AI: masalah nyata + data + metode + evaluasi terukur; checklist standar S1
-33. Peta jalan 6 langkah: dari ide ke publikasi
+29. Peluang AI di Riau & Sumatera: industri, pendidikan, masyarakat (+ sumber data terbuka)
+30. Empat pilar: etika, keamanan, privasi (UU PDP), kehandalan
+31. **Ruang Diskusi 3 — Kamera AI di kampus: setuju?** Frame CCTV dengan label "mencurigakan"; voting setuju/bersyarat/tidak, bahas bias dan rancang pengaman (4')
+32. Empat jebakan: Cognitive Atrophy, Illusion of Competence, Erosion of Curiosity & Agency, Ethical Anaesthesia
+33. Penangkal: AI sebagai sparring partner, bukan joki
+34. Lima jenis research gap + cara cepat (Limitation & Future Work) + tools literatur
+35. Rumus skripsi AI: masalah nyata + data + metode + evaluasi terukur; checklist standar S1
+36. Peta jalan 6 langkah: dari ide ke publikasi
 
 **Penutup**
-34. Quote Alan Kay + pesan penutup + big idea + kontak
+37. Quote Alan Kay + pesan penutup + big idea + kontak
 
 ### Quote cadangan
 - "AI is the new electricity." — Andrew Ng

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="Plus Jakarta Sans, Arial, sans-serif">
+  <rect width="800" height="500" rx="16" fill="#101c33"/>
+  <rect width="800" height="44" rx="16" fill="#172a4a"/>
+  <rect y="28" width="800" height="16" fill="#172a4a"/>
+  <circle cx="26" cy="22" r="6" fill="#f87171"/><circle cx="46" cy="22" r="6" fill="#facc15"/><circle cx="66" cy="22" r="6" fill="#4ade80"/>
+  <text x="400" y="28" fill="#9fb2cf" font-size="15" text-anchor="middle">Asisten Riset AI</text>
+
+  <!-- pesan mahasiswa -->
+  <rect x="330" y="62" width="450" height="64" rx="14" fill="#2dd4bf"/>
+  <text x="350" y="89" fill="#0b1426" font-size="16" font-weight="700">Carikan 3 paper deteksi karhutla di Riau</text>
+  <text x="350" y="112" fill="#0b1426" font-size="16" font-weight="700">pakai deep learning, lengkap dengan DOI.</text>
+
+  <!-- jawaban AI -->
+  <rect x="20" y="142" width="560" height="232" rx="14" fill="#172a4a" stroke="#2a4268"/>
+  <text x="40" y="170" fill="#e8eef8" font-size="16">Tentu! Berikut 3 paper yang sangat relevan:</text>
+  <text x="40" y="202" fill="#e8eef8" font-size="14.5"><tspan font-weight="700">1.</tspan> Pratama, R. &amp; Lestari, D. (2021). FireNet-Riau: CNN</text>
+  <text x="58" y="222" fill="#9fb2cf" font-size="14.5">untuk deteksi asap gambut. J. Informatika Sumatera, 9(2).</text>
+  <text x="58" y="242" fill="#60a5fa" font-size="14.5">doi:10.1234/jis.2021.0920</text>
+  <text x="40" y="272" fill="#e8eef8" font-size="14.5"><tspan font-weight="700">2.</tspan> Siregar, A. dkk. (2022). LSTM-Hotspot: prediksi titik</text>
+  <text x="58" y="292" fill="#9fb2cf" font-size="14.5">api Riau. Prosiding Konf. AI Nusantara, 112–119.</text>
+  <text x="40" y="322" fill="#e8eef8" font-size="14.5"><tspan font-weight="700">3.</tspan> Nasution, F. (2023). Multimodal SmokeFormer. IEEE</text>
+  <text x="58" y="342" fill="#9fb2cf" font-size="14.5">Access, 11, 40211–40225. </text>
+  <text x="40" y="364" fill="#4ade80" font-size="13.5">Semua sumber telah terverifikasi dan sangat kredibel.</text>
+
+  <!-- aksi agent -->
+  <rect x="20" y="392" width="760" height="56" rx="12" fill="#2a1d12" stroke="#fb923c"/>
+  <text x="40" y="416" fill="#fb923c" font-size="14" font-weight="700" font-family="JetBrains Mono, monospace">AGENT · aksi otomatis</text>
+  <text x="40" y="437" fill="#e8eef8" font-size="15">Daftar pustaka ditambahkan ke draf proposal dan dikirim ke dosen pembimbing.</text>
+
+  <text x="780" y="482" fill="#9fb2cf" font-size="13" font-style="italic" text-anchor="end">Ilustrasi — seluruh referensi di atas fiktif</text>
+</svg>
